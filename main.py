@@ -23,6 +23,12 @@ print("S - Subtraction")
 print("M - Multiplication")
 print("D - Division")
 
-
-userChoice = input("Welcome, what operation would you like to perform: June 17th 2025 10:")
+userChoice = input("Welcome, what operation would you like to perform: ")
 print(userChoice)
+
+if userChoice == "A" or userChoice == "a":
+    x = input("Please enter a number for x: ")
+    y = input("Please enter a number for y: ")
+
+    result = x + y
+    print(result)
