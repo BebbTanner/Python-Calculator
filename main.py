@@ -12,3 +12,7 @@
     5.) Ask the user if they would like to run the program again (Optional).
 """
 
+x = 0
+y = 0
+result = 0
+
