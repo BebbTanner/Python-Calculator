@@ -62,6 +62,6 @@ elif userChoice == "D" or userChoice == "d":
 
     if integerY == 0:
         print("You cannot divide by 0!")
-#    else:
-#        result = integerX / integerY
-#        print(result)
+    else:
+        result = integerX / integerY
+        print(result)
