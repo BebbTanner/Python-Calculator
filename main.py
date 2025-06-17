@@ -12,11 +12,6 @@
     5.) Ask the user if they would like to run the program again (Optional).
 """
 
-
-#x = input()
-#y = input()
-result = 0
-
 print("Please select an operation")
 print("A - Addition")
 print("S - Subtraction")
@@ -27,8 +22,11 @@ userChoice = input("Welcome, what operation would you like to perform: ")
 print(userChoice)
 
 if userChoice == "A" or userChoice == "a":
-    x = input("Please enter a number for x: ")
-    y = input("Please enter a number for y: ")
+    stringX = input("Please enter a number for x: ")
+    integerX = int(stringX)
+    
+    stringY = input("Please enter a number for y: ")
+    integerY = int(stringY)
 
-    result = x + y
+    result = integerX + integerY
     print(result)
