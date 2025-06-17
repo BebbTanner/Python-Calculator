@@ -12,8 +12,10 @@
     5.) Ask the user if they would like to run the program again (Optional).
 """
 
-userChoice = input()
-x = input()
-y = input()
+
+#x = input()
+#y = input()
 result = 0
 
+userChoice = input("Welcome, what operation would you like to preform: \n")
+print(userChoice)
