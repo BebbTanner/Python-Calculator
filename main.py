@@ -50,3 +50,17 @@ elif userChoice == "M" or userChoice == "m":
 
     result = integerX * integerY
     print(result)
+
+elif userChoice == "D" or userChoice == "d":
+    stringX = input("Please enter a number for x: ")
+    integerX = int(stringX)
+    
+    stringY = input("Please enter a number for y: ")
+    integerY = int(stringY)
+
+    if integerY == 0:
+        print("You cannot divide by 0!")
+    else:
+        result = integerX / integerY
+        print(result)
+        
