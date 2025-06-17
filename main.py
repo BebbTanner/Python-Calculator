@@ -17,5 +17,12 @@
 #y = input()
 result = 0
 
-userChoice = input("Welcome, what operation would you like to preform: \n")
+print("Please select an operation")
+print("A - Addition")
+print("S - Subtraction")
+print("M - Multiplication")
+print("D - Division")
+
+
+userChoice = input("Welcome, what operation would you like to perform: June 17th 2025 10:")
 print(userChoice)
